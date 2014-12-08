@@ -1,0 +1,7 @@
+{% for row in data %}
+<tr>
+    <td>{{ loop.index }}</td>
+    <td>{{ row.url }}</td>
+    <td>{{ row.count }}</td>
+</tr>
+{% endfor %}
